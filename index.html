@@ -108,6 +108,10 @@ footer ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:1.2
  .cols{grid-template-columns:1fr}
  .cols h2{position:static}
 }
+ .quiet-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--stone);border:1px solid var(--stone)}
+.quiet-gallery figure{margin:0;background:var(--ivory)}
+.quiet-gallery img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;display:block}
+@media (max-width:60rem){.quiet-gallery{grid-template-columns:1fr}}
 @media (max-width:34rem){.slots,.social{grid-template-columns:1fr}.btn{width:100%;justify-content:center}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 </style>
@@ -227,6 +231,15 @@ footer ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:1.2
    <p>I value collaborations that make sense for both sides. Any partnership should feel authentic, considered and consistent with the work and identity behind it.</p>
    <p>I'm not interested in simply putting another piece of content into the world. I'm interested in making something that connects.</p>
    <p>For professional enquiries, please <a href="#contact">get in touch</a>.</p>
+  </div>
+ </div>
+</section>
+ <section class="block">
+ <div class="wrap">
+  <div class="quiet-gallery">
+   <figure><img src="/me1.jpg" alt="Kaylee-Jane" loading="lazy" decoding="async"></figure>
+   <figure><img src="/me2.jpg" alt="Kaylee-Jane" loading="lazy" decoding="async"></figure>
+   <figure><img src="/me3.jpg" alt="Kaylee-Jane" loading="lazy" decoding="async"></figure>
   </div>
  </div>
 </section>
