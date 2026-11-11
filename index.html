@@ -130,6 +130,24 @@ footer ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:1.2
 .talent-list li b{font-weight:600}
 .talent-note{font-family:var(--serif);font-style:italic;color:var(--rust);font-size:1.3rem;line-height:1.3;margin:1.5rem 0 0;position:relative}
 @media (max-width:60rem){.talent-grid{grid-template-columns:1fr}}
+ /* --- WORKSHOPS --- */
+.tagline{font-family:var(--serif);font-style:italic;font-size:1.4rem;color:var(--rust);line-height:1.35;margin:1.5rem 0 0}
+.kicker{font-size:.8rem;letter-spacing:.22em;color:var(--rust);font-weight:600;margin:0 0 1rem}
+.workshop-featured{background:var(--white);border:1px solid var(--stone);padding:clamp(1.5rem,4vw,2.25rem);margin:2.5rem 0;position:relative}
+.workshop-featured::before{content:"";position:absolute;inset:.75rem;border:1px solid rgba(182,169,154,.45);pointer-events:none}
+.workshop-featured h3{font-size:clamp(1.6rem,3vw,2.2rem);margin-bottom:.75rem;position:relative}
+.workshop-featured p{position:relative}
+.meta-line{font-size:.9rem;letter-spacing:.02em;color:#6b6258}
+.price{font-family:var(--serif);font-size:1.35rem;font-weight:600}
+.workshop-note{font-size:.9rem;color:#6b6258;margin-top:1rem}
+.workshop-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--stone);border:1px solid var(--stone);margin:1.5rem 0 2rem}
+.workshop-card{background:var(--ivory);padding:1.5rem;display:flex;flex-direction:column;gap:.4rem}
+.workshop-card h3{font-size:1.5rem}
+.workshop-card p{font-size:.98rem;margin:0}
+.workshop-card .tag{font-size:.75rem;letter-spacing:.18em;color:var(--rust);font-weight:600}
+.workshop-card .detail{font-size:.85rem;color:#6b6258}
+.workshop-card .soon{font-size:.85rem;font-style:italic;color:var(--rust)}
+@media (max-width:60rem){.workshop-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
