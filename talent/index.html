@@ -110,6 +110,26 @@ h1, .hero h1 {
 }
 </style>
 </head>
+   <script>
+// Reveal cards on scroll
+const els = document.querySelectorAll('.card, section h2, section p');
+els.forEach(el => el.classList.add('reveal'));
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      io.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.12 });
+els.forEach(el => io.observe(el));
+
+// Subtle parallax on hero images
+window.addEventListener('scroll', () => {
+  const heroImg = document.querySelector('.hero img');
+  if (heroImg) heroImg.style.transform = `translateY(${window.scrollY * 0.06}px)`;
+}, { passive: true });
+</script>
 <body>
 
 <header class="topbar">
