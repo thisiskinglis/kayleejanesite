@@ -1,173 +1,440 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Talent Management | Kaylee-Jane</title>
-<meta name="description" content="Talent managed by Kaylee-Jane — Franko, CR7, Samora, Mitch, Clinton, Nicole. Actors, artists and creators from South Africa, available for film, TV, commercials and brand work.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Open Graph / Facebook / WhatsApp / LinkedIn — ONE SET ONLY -->
-<meta property="og:title" content="Talent Management | Kaylee-Jane">
-<meta property="og:description" content="Real. Raw. Cross-cultural. Meet the talent managed by Kaylee-Jane.">
+<title>Interesting Humans | Talent Agent Kaylee-Jane</title>
+
+<meta name="description" content="Meet the Interesting Humans represented by Kaylee-Jane. Actors, artists, models and creators available for film, television, commercials, fashion, hosting and brand collaborations.">
+
+<link rel="canonical" href="https://kaylee-jane.com/talent/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="KAYLEE-JANE">
+<meta property="og:url" content="https://kaylee-jane.com/talent/">
+<meta property="og:title" content="Interesting Humans | Talent Representation">
+<meta property="og:description" content="Distinctive people. Individual character. Interesting possibilities. Meet the talent represented by Kaylee-Jane.">
 <meta property="og:image" content="https://kaylee-jane.com/talent/og-im.jpg">
 <meta property="og:image:secure_url" content="https://kaylee-jane.com/talent/og-im.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Talent Management | Kaylee-Jane - Franko, CR7, Samora, Mitch, Clinton, Nicole">
-<meta property="og:url" content="https://kaylee-jane.com/talent/">
-<meta property="og:type" content="website">
+<meta property="og:image:alt" content="Interesting Humans — talent represented by Kaylee-Jane">
 
-<!-- Twitter / X -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Talent Management | Kaylee-Jane">
-<meta name="twitter:description" content="Real. Raw. Cross-cultural. Meet the talent managed by Kaylee-Jane.">
+<meta name="twitter:title" content="Interesting Humans | KAYLEE-JANE">
+<meta name="twitter:description" content="Distinctive people. Individual character. Interesting possibilities.">
 <meta name="twitter:image" content="https://kaylee-jane.com/talent/og-im.jpg">
 
+<meta name="theme-color" content="#F8F7F5">
+<link rel="icon" href="/favicon.ico">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #F8F7F5; color: #1A1816; line-height: 1.6; }
-  a { color: inherit; text-decoration: none; }
-  .topbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px; max-width: 1100px; margin: 0 auto; }
-  .logo { font-weight: 800; letter-spacing: 0.12em; font-size: 13px; }
-  .logo span { color: #8C3A2E; }
-  .back { font-size: 13px; border: 1px solid #1A1816; padding: 8px 14px; border-radius: 999px; }
-  .hero { max-width: 1100px; margin: 0 auto; padding: 40px 24px 20px; text-align: center; }
-  .hero p.kicker { color: #8C3A2E; font-weight: 700; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; }
-  .hero h1 { font-size: clamp(36px, 6vw, 58px); line-height: 1.05; margin: 12px 0 12px; }
-  .hero p.sub { color: #6B6258; max-width: 640px; margin: 0 auto; font-size: 17px; }
-  .grid { max-width: 1100px; margin: 0 auto; padding: 28px 24px 60px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-  @media (max-width: 820px) { .grid { grid-template-columns: 1fr; } }
-  .card { background: #fff; border-radius: 20px; overflow: hidden; border: 1px solid #E8E2DA; display: flex; flex-direction: column; }
-  .card img { width: 100%; height: 380px; object-fit: cover; display: block; background: #E8E2DA; }
-  .card-body { padding: 20px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
-  .card-body h2 { font-size: 24px; line-height: 1.1; }
-  .card-body h2 small { display: block; font-size: 13px; color: #8C3A2E; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 4px; }
-  .card-body p { color: #6B6258; font-size: 14.5px; }
-  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
-  .tags span { font-size: 11px; border: 1px solid #E8E2DA; padding: 5px 9px; border-radius: 999px; }
-  .btn { margin-top: auto; padding-top: 14px; }
-  .btn a { display: block; text-align: center; background: #1A1816; color: #fff; padding: 12px; border-radius: 999px; font-weight: 700; font-size: 14px; }
-  .btn a:hover { background: #8C3A2E; }
-  .footer { text-align: center; padding: 0 24px 40px; color: #6B6258; font-size: 13px; }
-  .footer a { text-decoration: underline; }
-   /* --- ELEVATE: depth + movement --- */
+:root {
+  --ivory:#F8F7F5;
+  --charcoal:#1A1816;
+  --rust:#8C3A2E;
+  --stone:#B6A99A;
+  --white:#FFFFFF;
+  --serif:"Cormorant Garamond",Georgia,serif;
+  --sans:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+html {
+  scroll-behavior:smooth;
+}
+
 body {
+  font-family:var(--sans);
   background:
-    radial-gradient(900px 500px at 10% 0%, rgba(140,58,46,.08), transparent 60%),
-    radial-gradient(900px 600px at 90% 20%, rgba(26,24,22,.06), transparent 60%),
-    #F8F7F5;
+    radial-gradient(900px 500px at 10% 0%,rgba(140,58,46,.07),transparent 60%),
+    radial-gradient(900px 600px at 90% 20%,rgba(26,24,22,.05),transparent 60%),
+    var(--ivory);
+  color:var(--charcoal);
+  line-height:1.6;
 }
 
-/* Cards: lift + shadow + image zoom on hover */
+a {
+  color:inherit;
+  text-decoration:none;
+}
+
+:focus-visible {
+  outline:2px solid var(--rust);
+  outline-offset:4px;
+}
+
+/* HEADER */
+
+.topbar {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 24px;
+  max-width:1160px;
+  margin:0 auto;
+}
+
+.logo {
+  font-family:var(--serif);
+  font-size:22px;
+  font-weight:600;
+  letter-spacing:.08em;
+}
+
+.logo span {
+  color:var(--rust);
+}
+
+.back {
+  font-size:13px;
+  border:1px solid var(--charcoal);
+  padding:8px 16px;
+  border-radius:999px;
+  transition:background .25s,color .25s;
+}
+
+.back:hover {
+  background:var(--charcoal);
+  color:var(--white);
+}
+
+/* HERO */
+
+.hero {
+  max-width:1100px;
+  margin:0 auto;
+  padding:65px 24px 45px;
+  text-align:center;
+}
+
+.hero .kicker {
+  color:var(--rust);
+  font-weight:600;
+  font-size:12px;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  margin-bottom:15px;
+}
+
+.hero h1 {
+  font-family:var(--serif);
+  font-size:clamp(48px,7vw,82px);
+  font-weight:500;
+  line-height:.98;
+  letter-spacing:-.025em;
+  margin-bottom:22px;
+}
+
+.hero h1 em {
+  color:var(--rust);
+  font-weight:400;
+}
+
+.hero .lead {
+  font-family:var(--serif);
+  font-size:clamp(23px,3vw,30px);
+  line-height:1.3;
+  margin:0 auto 16px;
+}
+
+.hero .sub {
+  font-size:16px;
+  color:#6B6258;
+  max-width:650px;
+  margin:0 auto 26px;
+}
+
+.hero .intro-copy {
+  max-width:690px;
+  margin:0 auto;
+  text-align:left;
+}
+
+.hero .intro-copy p {
+  font-size:15px;
+  color:#514B45;
+  margin-bottom:15px;
+}
+
+.hero .closing {
+  font-family:var(--serif);
+  font-size:23px;
+  font-style:italic;
+  color:var(--rust);
+  text-align:center;
+  line-height:1.35;
+  margin:30px auto 25px;
+}
+
+.profile-prompt {
+  font-size:13px;
+  letter-spacing:.04em;
+  color:#6B6258;
+  margin-top:25px;
+}
+
+/* TALENT GRID */
+
+.grid {
+  max-width:1160px;
+  margin:0 auto;
+  padding:25px 24px 75px;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:24px;
+  align-items:stretch;
+}
+
 .card {
-  transition: transform .5s ease, box-shadow .5s ease;
-  will-change: transform;
-  overflow: hidden;
+  background:var(--white);
+  border:1px solid #E8E2DA;
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+  transition:transform .4s ease,box-shadow .4s ease;
 }
+
 .card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 24px 40px rgba(26,24,22,.16);
+  transform:translateY(-6px);
+  box-shadow:0 20px 35px rgba(26,24,22,.12);
 }
+
+.card-image {
+  overflow:hidden;
+  background:#E8E2DA;
+}
+
 .card img {
-  transition: transform .8s ease, filter .8s ease;
+  width:100%;
+  height:380px;
+  object-fit:cover;
+  display:block;
+  transition:transform .7s ease;
 }
+
 .card:hover img {
-  transform: scale(1.06);
-  filter: saturate(1.08) contrast(1.04);
+  transform:scale(1.04);
 }
 
-/* Headline: subtle entrance */
-h1, .hero h1 {
-  animation: riseIn .9s ease both;
-}
-@keyframes riseIn {
-  from { opacity: 0; transform: translateY(18px); }
-  to { opacity: 1; transform: translateY(0); }
+.card-body {
+  padding:22px;
+  display:flex;
+  flex-direction:column;
+  gap:9px;
+  flex:1;
 }
 
-/* Scroll reveal — cards fade up as you scroll */
+.card-body h2 {
+  font-family:var(--serif);
+  font-size:30px;
+  font-weight:500;
+  line-height:1.05;
+}
+
+.card-body h2 small {
+  display:block;
+  font-family:var(--sans);
+  font-size:11px;
+  color:var(--rust);
+  letter-spacing:.13em;
+  text-transform:uppercase;
+  margin-top:7px;
+  line-height:1.5;
+}
+
+.role {
+  font-size:12px;
+  font-weight:600;
+  color:var(--charcoal);
+  letter-spacing:.02em;
+}
+
+.desc {
+  color:#6B6258;
+  font-size:14px;
+  line-height:1.6;
+}
+
+.tags {
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+  margin-top:8px;
+}
+
+.tags span {
+  font-size:10px;
+  border:1px solid #E8E2DA;
+  padding:5px 9px;
+  border-radius:999px;
+  color:#514B45;
+}
+
+.btn {
+  margin-top:auto;
+  padding-top:20px;
+}
+
+.btn a {
+  display:block;
+  text-align:center;
+  background:var(--charcoal);
+  color:var(--white);
+  padding:13px 12px;
+  font-weight:600;
+  font-size:13px;
+  transition:background .25s;
+}
+
+.btn a:hover {
+  background:var(--rust);
+}
+
+/* FOOTER */
+
+.footer {
+  text-align:center;
+  padding:0 24px 45px;
+  color:#6B6258;
+  font-size:13px;
+  line-height:2;
+}
+
+.footer a {
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+
+.footer strong {
+  color:var(--charcoal);
+}
+
+/* REVEAL */
+
 .reveal {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity .7s ease, transform .7s ease;
+  opacity:0;
+  transform:translateY(18px);
+  transition:opacity .65s ease,transform .65s ease;
 }
+
 .reveal.visible {
-  opacity: 1;
-  transform: translateY(0);
+  opacity:1;
+  transform:translateY(0);
 }
 
-/* Buttons: soft pulse on hover */
-.btn a, .btn {
-  transition: transform .3s ease, background .3s ease;
-}
-.btn a:hover, .btn:hover {
-  transform: translateY(-2px);
+/* RESPONSIVE */
+
+@media(max-width:820px) {
+  .grid {
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:16px;
+  }
+
+  .card img {
+    height:340px;
+  }
 }
 
-@media (prefers-reduced-motion: reduce) {
-    * { animation: none !important; transition: none !important; }
+@media(max-width:540px) {
+  .topbar {
+    padding:17px 18px;
+  }
+
+  .hero {
+    padding:45px 20px 30px;
+  }
+
+  .hero h1 {
+    font-size:clamp(44px,12vw,60px);
+  }
+
+  .grid {
+    grid-template-columns:1fr;
+    padding:20px 18px 55px;
+    gap:20px;
+  }
+
+  .card img {
+    height:auto;
+    aspect-ratio:4/5;
+  }
+
+  .card-body {
+    padding:20px;
+  }
+}
+
+@media(prefers-reduced-motion:reduce) {
+  html {
+    scroll-behavior:auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation:none!important;
+    transition:none!important;
+  }
+
+  .reveal {
+    opacity:1;
+    transform:none;
+  }
 }
 </style>
 </head>
-   <script>
-// Reveal cards on scroll
-const els = document.querySelectorAll('.card, section h2, section p');
-els.forEach(el => el.classList.add('reveal'));
-const io = new IntersectionObserver((entries) => {
-  entries.forEach(e => {
-    if (e.isIntersecting) {
-      e.target.classList.add('visible');
-      io.unobserve(e.target);
-    }
-  });
-}, { threshold: 0.12 });
-els.forEach(el => io.observe(el));
 
-// Subtle parallax on hero images
-window.addEventListener('scroll', () => {
-  const heroImg = document.querySelector('.hero img');
-  if (heroImg) heroImg.style.transform = `translateY(${window.scrollY * 0.06}px)`;
-}, { passive: true });
-</script>
 <body>
 
 <header class="topbar">
-  <a class="logo" href="/">KAYLEE <span>–</span> JANE</a>
+  <a class="logo" href="/" aria-label="KAYLEE-JANE home">
+    KAYLEE <span>–</span> JANE
+  </a>
+
   <a class="back" href="/">← Back Home</a>
 </header>
 
-
 <section class="hero">
-  <div class="wrap">
-    <p class="kicker">Talent Representation · Acting · Brands · Creative</p>
 
- <h1>REAL. RAW. CROSS-CULTURAL.</h1>
+  <p class="kicker">KAYLEE-JANE · TALENT REPRESENTATION</p>
 
-    <p class="lead">
-      Actors, artists and creators represented by Kaylee-Jane.
-    </p>
+  <h1>Interesting <em>Humans.</em></h1>
 
-    <p class="sub">
-      We don't represent a type. We represent individuals.
+  <p class="lead">
+    Not just faces. Not just profiles. People with presence, personality and character.
+  </p>
+
+  <p class="sub">
+    Actors, artists, models and creators represented by Kaylee-Jane.
+  </p>
+
+  <div class="intro-copy">
+
+    <p>
+      I represent individuals from different backgrounds, generations,
+      cultures and walks of life. People with distinctive perspectives,
+      compelling personalities and qualities that bring something
+      different to the frame.
     </p>
 
     <p>
-      Distinctive faces. Unmistakable presence. Different accents,
-      backgrounds, perspectives and lived experiences. Talent with
-      character, substance and something of their own to bring to the frame.
-    </p>
-
-    <p>
-      We believe the most compelling people are rarely the ones who fit
-      the brief in the most predictable way. They're the ones who bring
-      something unexpected to it.
-    </p>
-
-    <p>
-      Our approach to representation is built around recognising what
-      makes each individual valuable — not reshaping them to fit an
-      industry template.
+      I look beyond conventional casting categories to recognise what
+      makes each person distinctive, where their potential lies and
+      how their individuality translates into creative and commercial
+      opportunity.
     </p>
 
     <p>
@@ -176,92 +443,303 @@ window.addEventListener('scroll', () => {
     </p>
 
     <p class="closing">
-      Because talent isn't about looking like everyone else.
-      It's about bringing something nobody else can.
-    </p>
-
-    <p class="profile-prompt">
-      Explore our talent profiles for photographs, credits and booking enquiries.
+      Different people. Distinctive possibilities.
     </p>
 
   </div>
-</section>
 
+  <p class="profile-prompt">
+    Meet the people. Explore their work. Enquire about bookings.
+  </p>
+
+</section>
 
 <main class="grid">
 
   <!-- FRANKO / RYBA -->
-  <article class="card">
-    <img src="/talent/rh.jpg" alt="Artur AKA Ryba Hybryd / Franko">
+
+  <article class="card reveal">
+
+    <div class="card-image">
+      <img src="/talent/rh.jpg"
+           alt="Portrait of Artur, also known as Ryba Hybryd and Franko"
+           loading="lazy"
+           decoding="async">
+    </div>
+
     <div class="card-body">
-      <h2>Artur<small>RYBA HYBRYD AKA FRANKO</small></h2>
-      <p class="role">Actor &bull; Music Creator &bull; Storyteller</p>
-      <p class="desc">Franko of New Prison — Thando Mseleku Films. Films. Music. Content</p>
-      <div class="tags"><span>Film &amp; TV</span><span>Commercials</span><span>Music</span></div>
-      <div class="btn"><a href="/ryba-hybryd/">View Arturs's Profile →</a></div>
+
+      <h2>Artur
+        <small>RYBA HYBRYD · FRANKO</small>
+      </h2>
+
+      <p class="role">Actor · Music Creator · Storyteller</p>
+
+      <p class="desc">
+        Franko in New Prison, a Thando Mseleku Films production.
+        Also working across music and digital content.
+      </p>
+
+      <div class="tags">
+        <span>Film &amp; TV</span>
+        <span>Commercials</span>
+        <span>Music</span>
+      </div>
+
+      <div class="btn">
+        <a href="/ryba-hybryd/">View Artur's Profile →</a>
+      </div>
+
     </div>
   </article>
 
-  <!-- CR7 -->
-  <article class="card">
-    <img src="/talent/cr.jpg" alt="CR7 — Kayle Rondganger">
+  <!-- KAYLE / CR7 -->
+
+  <article class="card reveal">
+
+    <div class="card-image">
+      <img src="/talent/cr.jpg"
+           alt="Portrait of Kayle Rondganger, known as CR7"
+           loading="lazy"
+           decoding="async">
+    </div>
+
     <div class="card-body">
-      <h2>Kayle<small>CR7</small></h2>
-      <p class="role">Actor &bull; Street Model </p>
-      <p class="desc">CR7 of New Prison — Thando Mseleku Films. Street, fashion photography.</p>
-      <div class="tags"><span>Film &amp; TV</span><span>Fashion</span><span>Brand Work</span></div>
-      <div class="btn"><a href="/talent/kayle/">View Kayle's Profile →</a></div>
+
+      <h2>Kayle
+        <small>CR7</small>
+      </h2>
+
+      <p class="role">Actor · Street Model</p>
+
+      <p class="desc">
+        A distinctive street-style presence with scope across
+        screen performance, fashion and commercial work.
+      </p>
+
+      <div class="tags">
+        <span>Film &amp; TV</span>
+        <span>Fashion</span>
+        <span>Brand Work</span>
+      </div>
+
+      <div class="btn">
+        <a href="/talent/kayle/">View Kayle's Profile →</a>
+      </div>
+
     </div>
   </article>
 
-    <!-- SAMORA -->
-  <article class="card">
-    <img src="/talent/samora/samora.jpg" alt="Samora — Young Entrepreneur">
+  <!-- SAMORA -->
+
+  <article class="card reveal">
+
+    <div class="card-image">
+      <img src="/talent/samora/samora.jpg"
+           alt="Portrait of Samora"
+           loading="lazy"
+           decoding="async">
+    </div>
+
     <div class="card-body">
-      <h2>Samora<small>GENTLEMAN OF DISTINCTION</small></h2>
-      <p class="role">Luxury Fashion &bull; Photography &bull; Brand Ambassador</p>
-      <p class="desc">Regal, luxury and photography — built from the ground up.</p>
-      <div class="tags"><span>Entrepreneur</span><span>Luxury</span><span>Brand Work</span></div>
-      <div class="btn"><a href="/talent/samora/">View Samora's Profile →</a></div>
+
+      <h2>Samora
+        <small>GENTLEMAN OF DISTINCTION</small>
+      </h2>
+
+      <p class="role">Luxury Fashion · Photography · Brand Ambassador</p>
+
+      <p class="desc">
+        A distinctive presence with an interest in luxury,
+        fashion, photography and brand representation.
+      </p>
+
+      <div class="tags">
+        <span>Entrepreneur</span>
+        <span>Luxury</span>
+        <span>Brand Work</span>
+      </div>
+
+      <div class="btn">
+        <a href="/talent/samora/">View Samora's Profile →</a>
+      </div>
+
     </div>
   </article>
 
-      <!-- MItch -->
-<article class="card">
-  <img src="/talent/mitch/mitch.jpg" alt="Mitch — Chef">
-  <div class="card-body">
-    <h2>Mitch<small>Chef</small></h2>
-    <p class="role">Chef &bull; Host &bull; Brand Ambassador</p>
-    <div class="tags"><span>Creator</span><span>Foodie</span><span>Brand Work</span></div>
-    <div class="btn"><a href="/talent/mitch/">View Mitch's Profile →</a></div>
-  </div>
-</article>
+  <!-- MITCH -->
 
-     <!-- NICOLE -->
-  <article class="card">
-    <img src="/talent/nix.jpg" alt="Nicole — Storm">
+  <article class="card reveal">
+
+    <div class="card-image">
+      <img src="/talent/mitch/mitch.jpg"
+           alt="Portrait of Mitch, chef and creator"
+           loading="lazy"
+           decoding="async">
+    </div>
+
     <div class="card-body">
-      <h2>Nicole<small>Nix</small></h2>
-      <p>Model &bull; Creator &bull; Editorial magnetic.</p>
-      <div class="tags"><span>Modelling</span><span>Editorial</span><span>Brand Work</span></div>
-      <div class="btn"><a href="/talent/Nicole/">View Nicole's Profile →</a></div>
+
+      <h2>Mitch
+        <small>CHEF</small>
+      </h2>
+
+      <p class="role">Chef · Host · Brand Ambassador</p>
+
+      <p class="desc">
+        Food, personality and opportunities across culinary,
+        lifestyle and brand collaborations.
+      </p>
+
+      <div class="tags">
+        <span>Creator</span>
+        <span>Food</span>
+        <span>Brand Work</span>
+      </div>
+
+      <div class="btn">
+        <a href="/talent/mitch/">View Mitch's Profile →</a>
+      </div>
+
     </div>
   </article>
-   
-    <!-- CINDY -->
-  <article class="card">
-    <img src="/talent/cindy/cindy.jpg" alt="Cindy - luxury">
+
+  <!-- NICOLE -->
+
+  <article class="card reveal">
+
+    <div class="card-image">
+      <img src="/talent/nix.jpg"
+           alt="Portrait of Nicole, known as Nix"
+           loading="lazy"
+           decoding="async">
+    </div>
+
     <div class="card-body">
-      <h2>Cindy<small></small></h2>
-      <p>Model / Viluptuous / Natural beauty / camera-ready.</p>
-      <div class="tags"><span>Modelling</span><span>Commercials</span><span>Hosting</span></div>
-      <div class="btn"><a href="/talent/cindy/">View Cindys Profile →</a></div>
+
+      <h2>Nicole
+        <small>NIX</small>
+      </h2>
+
+      <p class="role">Model · Creator</p>
+
+      <p class="desc">
+        A distinctive editorial presence with potential across
+        modelling, visual campaigns and brand collaborations.
+      </p>
+
+      <div class="tags">
+        <span>Modelling</span>
+        <span>Editorial</span>
+        <span>Brand Work</span>
+      </div>
+
+      <div class="btn">
+        <a href="/talent/Nicole/">View Nicole's Profile →</a>
+      </div>
+
     </div>
   </article>
-  
+
+  <!-- CINDY -->
+
+  <article class="card reveal">
+
+    <div class="card-image">
+      <img src="/talent/cindy/cindy.jpg"
+           alt="Portrait of Cindy"
+           loading="lazy"
+           decoding="async">
+    </div>
+
+    <div class="card-body">
+
+      <h2>Cindy
+        <small>MODEL · COMMERCIAL TALENT</small>
+      </h2>
+
+      <p class="role">Model · Commercials · Hosting</p>
+
+      <p class="desc">
+        Natural presence and camera appeal, with opportunities
+        across commercial modelling, campaigns and hosting.
+      </p>
+
+      <div class="tags">
+        <span>Modelling</span>
+        <span>Commercials</span>
+        <span>Hosting</span>
+      </div>
+
+      <div class="btn">
+        <a href="/talent/cindy/">View Cindy's Profile →</a>
+      </div>
+
+    </div>
+  </article>
+
 </main>
 
-<p class="footer">All bookings via Agent Kaylee-Jane — <a href="https://www.instagram.com/thisiskayleejane">@thisiskayleejane</a> • kaylee-jane.com<br>Also available as a trio: The Three Corners</p>
+<footer class="footer">
+
+  <p>
+    <strong>Interested in working with someone?</strong>
+  </p>
+
+  <p>
+    All bookings and professional enquiries are handled by
+    Agent Kaylee-Jane.
+  </p>
+
+  <p>
+    <a href="mailto:hello@kaylee-jane.com">hello@kaylee-jane.com</a>
+    &nbsp;·&nbsp;
+    <a href="https://www.instagram.com/thisiskayleejane/"
+       target="_blank"
+       rel="noopener">@thisiskayleejane</a>
+  </p>
+
+  <p>
+    <a href="/">KAYLEE-JANE</a> · South Africa
+  </p>
+
+  <p>© 2026 Kaylee-Jane. All rights reserved.</p>
+
+</footer>
+
+<script>
+(function () {
+
+  const cards = document.querySelectorAll('.card.reveal');
+
+  const reduceMotion = window.matchMedia(
+    '(prefers-reduced-motion: reduce)'
+  ).matches;
+
+  if (!('IntersectionObserver' in window) || reduceMotion) {
+    cards.forEach(card => card.classList.add('visible'));
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+
+    entries.forEach(entry => {
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+
+    });
+
+  }, {
+    threshold: 0.08
+  });
+
+  cards.forEach(card => observer.observe(card));
+
+})();
+</script>
 
 </body>
 </html>
